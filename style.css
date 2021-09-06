@@ -187,7 +187,8 @@ header {
 .card-text {
   margin-left: 1.8rem;
   margin-bottom: 3.2rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  height: 5.2rem;
 }
 
 .RbtnMargin {
@@ -221,4 +222,22 @@ header {
   font-size: 3.2rem;
   color: #2c3e50;
   text-decoration: none;
+}
+
+.header-data {
+  display: block;
+  display: flex;
+  gap: 10rem;
+  font-size: 1.8rem;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  .header-data {
+    gap: 1.8rem;
+  }
+}
+.data p {
+  display: inline-block;
 }
